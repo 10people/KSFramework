@@ -28,7 +28,7 @@ function UILogin:OnInit(controller)
 
     Log.Info("================================ UILogin:OnInit ============================")
 
-    --local text = self:GetUIText("Login")
+    -- local text = self:GetUIText("Login")
     --text.text = I18N.Str("UILogin.LoginDescText")
     -- read LoginText from Outlet
     self.LoginText.text = I18N.Str("UILogin.LoginDescText")

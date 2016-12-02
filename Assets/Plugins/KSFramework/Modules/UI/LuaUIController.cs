@@ -107,7 +107,7 @@ namespace KSFramework
 					var gameObj = outletInfo.Object as GameObject;
 
 					if (gameObj != null)
-						_luaTable [outletInfo.Name] = gameObj.GetComponent (outletInfo.ComponentType);
+                        _luaTable[outletInfo.Name] = gameObj.GetComponent(outletInfo.ComponentType);
 					else
 						_luaTable [outletInfo.Name] = outletInfo.Object;
 				}
